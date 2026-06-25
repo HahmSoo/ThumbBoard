@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ArchiveThumbViewer\\ArchiveThumbViewer.csproj": {}
+    "C:\\Users\\havet\\OneDrive\\문서\\Github\\ThumbBoard2\\ArchiveThumbViewer.csproj": {}
   },
   "projects": {
-    "C:\\ArchiveThumbViewer\\ArchiveThumbViewer.csproj": {
+    "C:\\Users\\havet\\OneDrive\\문서\\Github\\ThumbBoard2\\ArchiveThumbViewer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ArchiveThumbViewer\\ArchiveThumbViewer.csproj",
+        "projectUniqueName": "C:\\Users\\havet\\OneDrive\\문서\\Github\\ThumbBoard2\\ArchiveThumbViewer.csproj",
         "projectName": "ArchiveThumbViewer",
-        "projectPath": "C:\\ArchiveThumbViewer\\ArchiveThumbViewer.csproj",
+        "projectPath": "C:\\Users\\havet\\OneDrive\\문서\\Github\\ThumbBoard2\\ArchiveThumbViewer.csproj",
         "packagesPath": "C:\\Users\\havet\\.nuget\\packages\\",
-        "outputPath": "C:\\ArchiveThumbViewer\\obj\\",
+        "outputPath": "C:\\Users\\havet\\OneDrive\\문서\\Github\\ThumbBoard2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

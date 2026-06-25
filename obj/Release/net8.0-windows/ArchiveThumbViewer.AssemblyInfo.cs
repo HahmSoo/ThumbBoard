@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArchiveThumbViewer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23fb65ec13b6c969418c7d2ef9188dd1fc275dc4")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArchiveThumbViewer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArchiveThumbViewer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

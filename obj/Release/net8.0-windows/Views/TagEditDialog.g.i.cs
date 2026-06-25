@@ -53,7 +53,7 @@ namespace ArchiveThumbViewer.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ArchiveThumbViewer;V1.0.0.0;component/views/tageditdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ArchiveThumbViewer;component/views/tageditdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\TagEditDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

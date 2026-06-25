@@ -209,13 +209,20 @@ namespace ArchiveThumbViewer.ViewModels
         private void RunOnUI(Action action)
         {
             var d = _ui;
-            if (d == null || d.HasShutdownStarted || d.HasShutdownFinished) return;
+            if (d == null || d.HasShutdownStarted || d.HasShutdownFinished)
+                return;
 
-            if (d.CheckAccess()) action();
+            if (d.CheckAccess())
+            {
+                action();
+            }
             else
             {
-                try { d.BeginInvoke(action, DispatcherPriority.Background); }
-                catch { /* 종료 경합 시 무시 */ }
+                try
+                {
+                    d.BeginInvoke(action, DispatcherPriority.Background);
+                }
+                catch { }
             }
         }
 
@@ -252,7 +259,10 @@ namespace ArchiveThumbViewer.ViewModels
                 _settings.RootPath = RootPath;
                 JsonStorage.Save(SettingsPath, _settings);
             }
-            catch { }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Settings save failed: {ex.Message}");
+            }
         }
 
         private bool FilterBySearchAndTags(object obj)
@@ -353,7 +363,10 @@ namespace ArchiveThumbViewer.ViewModels
                             });
                         }
                     }
-                    catch { }
+                    catch (Exception ex)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"Directory scan error: {ex.Message}");
+                    }
 
                     try
                     {
@@ -375,7 +388,10 @@ namespace ArchiveThumbViewer.ViewModels
                             });
                         }
                     }
-                    catch { }
+                    catch (Exception ex)
+                    {
+                        System.Diagnostics.Debug.WriteLine($"File scan error: {ex.Message}");
+                    }
 
                     return results;
                 }, ct);
