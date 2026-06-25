@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "O2shFW757qE=",
+  "success": true,
+  "projectFilePath": "C:\\ArchiveThumbViewer\\ArchiveThumbViewer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\havet\\.nuget\\packages\\magick.net-q8-anycpu\\14.8.2\\magick.net-q8-anycpu.14.8.2.nupkg.sha512",
+    "C:\\Users\\havet\\.nuget\\packages\\magick.net.core\\14.8.2\\magick.net.core.14.8.2.nupkg.sha512",
+    "C:\\Users\\havet\\.nuget\\packages\\sharpcompress\\0.40.0\\sharpcompress.0.40.0.nupkg.sha512",
+    "C:\\Users\\havet\\.nuget\\packages\\system.buffers\\4.6.0\\system.buffers.4.6.0.nupkg.sha512",
+    "C:\\Users\\havet\\.nuget\\packages\\zstdsharp.port\\0.8.5\\zstdsharp.port.0.8.5.nupkg.sha512"
+  ],
+  "logs": []
+}
